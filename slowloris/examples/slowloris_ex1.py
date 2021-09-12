@@ -9,6 +9,8 @@ import socket
 import sys
 import time
 
+# https://github.com/gkbrk/slowloris
+
 # создаем переменную parser с описанием 
 parser = argparse.ArgumentParser(
     description="Slowloris, low bandwidth stress test tool for websites"
